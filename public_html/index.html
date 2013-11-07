@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Word! Homies</title>
+	<title>Smord! Homies</title>
+
 </head>
 <body>
-    <h1>This is real, handcrafted html!</h1>
+
+	<h1 id = "my tag">This is real, handcrafted html!</h1>
+	<h2 style = "color: orange;">Unreal city! Goodnight ladies!!!</h2>
+
+	<script type= "text/javascript">
+	console.log("Hello World!");
+
+	var proudAffirmations = [
+		"Yo Wuzzup?!",
+		"Uh Huh, What?",
+		"Oh no! I'm tired!!!"];
+
+	setInterval(function (){
+		var randomIndex = Math.floor(Math.random() * proudAffirmations.length);
+		var myTag = document.getElementById('my tag');
+		myTag.innerText = proudAffirmations[randomIndex];
+	}, 500);
+
+    /* setTimeout(function () {
+      var myTag = document.getElementById('my tag');
+      myTag.innerText = "He's Amazing!";
+  }, 2000); */
+
+
+</script>
 </body>
 </html>
