@@ -4,8 +4,10 @@ JS2013F-assignment7
 jQuery Notes:
  - use the jquery docs at http://api.jquery.com/ (the API documentation link on the jquery home page)
  - remember to put all your jquery code inside the document ready function:  $(document).ready(function () { ... });
- - browserify lets you use node style 'requires' in the browser
- - 
+ - browserify lets you use node style 'requires' in the browser (~> sudo npm install -g browserify), which loads the   required files (aka 'dependencies') from inside the file itself (rather than having to list the files in a specific loading order)
+ - ~> which browerify (command line statement that gives you the path to the browserify files being used)
+ - module.exports = function() { ... }  is the counterpart to var x = require('./file');
+ 
 
 jQuery Challenges:
 
