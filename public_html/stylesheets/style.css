@@ -36,6 +36,17 @@
   width: 25%;
   margin-right: 2%;
 }
+.aside h3 {
+  text-align: center;
+}
+.title-list {
+  list-style: none;
+}
+.title-list li:hover {
+  opacity: .5;
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 /* Post container styles */
 
