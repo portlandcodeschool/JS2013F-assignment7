@@ -1,0 +1,89 @@
+/*
+ * Our main CSS stylesheet
+ *
+ * This is an optional space for notes
+ * about the page (author, date, copyright, etc.)
+ *
+*/
+
+/* Global styles */
+
+
+
+/* Header styles */
+
+.header {
+  height: 200px;
+  /*overflow: hidden;*/
+  background: url('http://cms.fkimg.com/events/machu-picchu-peru.jpg') 0 -200px no-repeat;
+  background-size: cover;
+}
+
+/* Main content styles */
+
+.blog-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.aside, #post-box {
+  float: left;
+}
+
+/* Aside styles */
+
+.aside {
+  background: #BADA55;
+  width: 25%;
+  margin-right: 2%;
+}
+.aside h3 {
+  text-align: center;
+}
+.title-list {
+  list-style: none;
+}
+.title-list li:hover {
+  opacity: .5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Post container styles */
+
+#post-box {
+  background: blue;
+  width: 73%;
+}
+.post {
+  width: 90%;
+  margin: 10px auto;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+.signature {
+  font-size: .8em;
+  text-align: right;
+  margin-right: 8px;
+}
+
+/* Footer styles */
+
+.footer {
+  clear: both;
+  height: 200px;
+  background: rgba(0,214,255,.1);
+}
+.footer h4 {
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
