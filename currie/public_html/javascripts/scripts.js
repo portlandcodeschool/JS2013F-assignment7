@@ -1,7 +1,7 @@
 // This is the core JS file
 
 function postTemplate (post) {
-    return "<div class=\"post\"><h2>" + post.title + "</h2>\n" +
+    return "<div class=\"post\" id='" + post.title.slice(0, 3) + "'><h2>" + post.title + "</h2>\n" +
            "<p>" + post.text + "</p>\n" +
            "<p class=\"signature\">" + post.author + "</p></div>";
 }
@@ -37,7 +37,7 @@ var posts = [
 $(document).ready(function () {
 
     posts.forEach(function (item) {
-      $('.aside ul').append("<li>" + item.title + "</li>");
+      $('.aside ul').append("<li class='" + item.title.slice(0, 3) + "'>" + item.title + "</li>"); 
       $('#post-box').append(postTemplate(item));
     });
     
@@ -66,6 +66,33 @@ $(document).ready(function () {
             widthToggle = 0;
         }
     });
+    
+    $('.The').click(function() {
+        $('#The').slideToggle();
+    });
+
+    $('.Dan').click(function() {
+        $('#Dan').slideToggle();
+    });
+
+    $('.Ast').click(function() {
+        $('#Ast').slideToggle();
+    });
+
+    $('.Mun').click(function() {
+        $('#Mun').slideToggle();
+    });
+
+    $('.Str').click(function() {
+        $('#Str').slideToggle();
+    });
+
+    $('.Bac').click(function() {
+        $('#Bac').slideToggle();
+    });
+
+
+
     //Sorts by Title
     $('#sortTitle').on('click', function() {
         posts.sort(function(a,b) {
@@ -99,6 +126,8 @@ $(document).ready(function () {
                 return -1;
                 return 0;
         });
+
+
         
         $('#post-box').html('<h1 class="blog-title">My Blog</h1>');
         posts.forEach(function (item) {
