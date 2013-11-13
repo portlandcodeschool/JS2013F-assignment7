@@ -51,9 +51,15 @@
 /* Post container styles */
 
 #post-box {
-  background: blue;
+  background: #7799A8;
   width: 73%;
 }
+
+#ctrlcntr {
+  width: 90%;
+  margin: 10px auto;
+}
+
 .post {
   width: 90%;
   margin: 10px auto;
