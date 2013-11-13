@@ -19,4 +19,4 @@ module.exports = [
         author: "Julio Cesar Ody",
         text: "The rule of thumb is get the hell away from the DOM. You won't read from it ever (e.g.: getting an element's class name, or the length of a list counts as that), because your data layer knows what has what value and in what state anything is at any given time. You'll write to the DOM only by rendering views. If you like this approach, it's totally ok to use just regular JS or jQuery."
     }
-]
+];

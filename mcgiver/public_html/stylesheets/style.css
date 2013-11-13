@@ -52,8 +52,16 @@
 
 #post-box {
   background: blue;
+}
+
+.post-box {
   width: 73%;
 }
+
+.post-box-thick {
+  width: 100%;
+}
+
 .post {
   width: 90%;
   margin: 10px auto;
