@@ -50,17 +50,14 @@
 }
 
 /* Post container styles */
+.blog-container {
+  background: blue;
+}
 
 #post-box {
-  background: #7799A8;
+  background: blue;
   width: 73%;
 }
-
-#ctrlcntr {
-  width: 90%;
-  margin: 10px auto;
-}
-
 .post {
   width: 90%;
   margin: 10px auto;
